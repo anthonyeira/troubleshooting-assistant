@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.stage.Stage?>
+
+<Stage title="IT Troubleshooting Wiki" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="500.0" prefWidth="400.0">
+            <children>
+               <Label layoutX="134.0" layoutY="53.0" stylesheets="@../styles/styles.css" 
+                    text="IT Troubleshooting Wiki" textOverrun="WORD_ELLIPSIS" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>
